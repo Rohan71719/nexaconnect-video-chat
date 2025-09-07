@@ -120,7 +120,7 @@ const HomePage = () => {
                       </div>
 
                       {/* Languages with flags */}
-                      <div className="flex flex-nowrap gap-1.5">
+                      <div className="flex flex-sm:flex-nowrap gap-1.5">
                         <span className="badge badge-secondary whitespace-nowrap">
                           {getLanguageFlag(user.nativeLanguage)}
                           Native: {capitialize(user.nativeLanguage)}
