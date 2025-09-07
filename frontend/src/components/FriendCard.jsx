@@ -16,7 +16,7 @@ const FriendCard = ({ friend }) => {
           <h3 className="font-semibold truncate">{friend.fullName}</h3>
         </div>
 
-        <div className="flex flex-wrap gap-1.5 mb-3">
+        <div className="flex flex-nowrap gap-1.5 mb-3">
           <span className="badge badge-secondary text-xs">
             {getLanguageFlag(friend.nativeLanguage)}
             Native: {friend.nativeLanguage}
