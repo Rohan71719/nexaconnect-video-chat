@@ -17,11 +17,11 @@ const FriendCard = ({ friend }) => {
         </div>
 
         <div className="flex flex-nowrap gap-1.5 mb-3">
-          <span className="badge badge-secondary text-xs flex items-center whitespace-nowrap">
+          <span className="badge badge-secondary text-xs flex items-center gap-1">
             {getLanguageFlag(friend.nativeLanguage)}
             Native: {friend.nativeLanguage}
           </span>
-          <span className="badge badge-outline text-xs flex items-center whitespace-nowrap">
+          <span className="badge badge-outline text-xs flex items-center gap-1">
             {getLanguageFlag(friend.learningLanguage)}
             Learning: {friend.learningLanguage}
           </span>
