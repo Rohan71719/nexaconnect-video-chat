@@ -100,9 +100,9 @@ const HomePage = () => {
                 return (
                   <div
                     key={user._id}
-                    className="card bg-base-200 hover:shadow-lg transition-all duration-300"
+                    className="card bg-base-200 hover:shadow-lg transition-all duration-300 h-full"
                   >
-                    <div className="card-body p-5 space-y-4">
+                    <div className="card-body p-5 flex flex-col justify-between h-full">
                       <div className="flex items-center gap-3">
                         <div className="avatar size-16 rounded-full">
                           <img src={user.profilePic} alt={user.fullName} />
